@@ -1,4 +1,4 @@
-HEROKU = True  # NOTE Make it false if you're not deploying on heroku.
+HEROKU = False  # NOTE Make it false if you're not deploying on heroku.
 
 # NOTE these values are for heroku & Docker.
 if HEROKU:
@@ -19,9 +19,9 @@ if HEROKU:
 
 # NOTE Fill this if you are not deploying on heroku.
 if not HEROKU:
-    API_ID = 14371
-    API_HASH = "e46b6c854d2bf58a0"
-    ARQ_API_KEY = "Get this from @ARQRobot"
+    API_ID = 18057191
+    API_HASH = "a4b317537a3b3b8e16a16ad033e8312f"
+    ARQ_API_KEY = "GRTLFP-TNHJUN-ALJMOQ-XZTRLE-ARQ"
     CHAT_ID = -100546355432
     DEFAULT_SERVICE = "saavn"  # Must be one of "youtube"/"saavn"
     BITRATE = 512 # Must be 512/320
